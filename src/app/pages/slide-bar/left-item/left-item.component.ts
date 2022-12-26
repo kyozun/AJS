@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./left-item.component.css']
 })
 export class LeftItemComponent {
+  displayRightItem() {
 
+  }
 }
