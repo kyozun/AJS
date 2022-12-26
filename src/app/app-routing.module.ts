@@ -7,7 +7,6 @@ import {InboxComponent} from "./pages/slide-bar/left-item/inbox/inbox.component"
 
 const routes: Routes = [
   // {path: 'Inbox', component: InboxComponent},
-  // {path: 'SendItems', component: SendItemsComponent},
 ]; // sets up routes constant where you define your routes
 
 // configures NgModule imports and exports
