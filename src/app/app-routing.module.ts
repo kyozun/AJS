@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router'; // CLI imports router
+import { Routes, RouterModule } from '@angular/router';
+import {SlideBarComponent} from "./pages/slide-bar/slide-bar.component"; // CLI imports router
 
-const routes: Routes = []; // sets up routes constant where you define your routes
+const routes: Routes = [
+  {path: 'Send', component: SlideBarComponent}
+]; // sets up routes constant where you define your routes
 
 // configures NgModule imports and exports
 @NgModule({
